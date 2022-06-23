@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+   --primary-color: hsl(240, 8%, 46%);
+   --secondary-color: #373b69;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#menubutton{
+    opacity: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    filter: drop-shadow(5px 5px 4px #000000b9);
+}
+#cinomaticlogo{
+    display: flex;
+    opacity: 50%;
+    width: 100%;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 4px #000000b9);
+}
+
+#searchbox{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.search{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid var(--primary-color);
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: #eee;
+    font-family: inherit;
+    box-shadow: inset 5px 5px 15px 5px rgba(0,0,0,0.20);
+}
+
+.search:focus{
+    outline:0;
+    background-color: whitesmoke;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#movie-main{
+}
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.search::placeholder{
+    color:rgba(0, 0, 0, 0.4);
+    font-size: x-large;
+}
+
+.movie{
+    width: 100%;
+}
+
+.movie img{
+    display: flex;
+   box-shadow: 20px 20px 25px 2px #000000b9;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+}
+.release{
+    height: 15px;
+    font-size: small;
+    padding: 0;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+    margin-top: 0;
+    text-align: center;
+}
+
+.movie title{
+    justify-content: center;
+}
+
+.no-results {
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rustlogo{
+    height: 48px;
+    width: auto;
+    margin: 10px;
+}
+.tmdblogo{
+    height: 48px;
+    width: auto;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.flex-div {
+    width: 100%;
+    margin: 50px;
+    background-color: transparent;
+}
+
+.flex-div.redx{
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    filter: drop-shadow(5px 5px 4px #000000b9);
+}
+.flex-div.greencheck{
+    display: flex;
+    justify-content: right;
+    align-self: center;
+    filter: drop-shadow(5px 5px 4px #000000b9);
+}
+
+.flex-div.menubutton{
+    display: flex;
+    justify-content: left;
+    align-self: center;
+}
+
+.flex-div.search{
+    display: flex;
+    justify-content: right;
+    align-self: center;
+}
+
+.sig{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    opacity: 20%;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+    justify-content: center;
+    opacity: 20%;
+}
+
+.flex-container.stars{
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.stars{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 0;
+}
+.flex-div-star{
+    display: flex;
+    justify-self: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+.star{
+    flex: 1;
+    padding: 5px;
+    margin: 0;
+    opacity: 40%;
+    filter: drop-shadow(10px 2px 4px #000000b9);
+}
+
+h6{
+    margin-bottom: 0;
+}

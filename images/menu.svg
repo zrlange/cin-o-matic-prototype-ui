@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="66" viewBox="0 0 90 66">
+  <defs>
+    <filter id="menu_FILL0_wght400_GRAD0_opsz48" x="0" y="0" width="90" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-190 -267)">
+    <g transform="matrix(1, 0, 0, 1, 190, 267)" filter="url(#menu_FILL0_wght400_GRAD0_opsz48)">
+      <path id="menu_FILL0_wght400_GRAD0_opsz48-2" data-name="menu_FILL0_wght400_GRAD0_opsz48" d="M6,60V54H78v6H6ZM6,39V33H78v6ZM6,18V12H78v6Z" transform="translate(-2 -8)"/>
+    </g>
+  </g>
+</svg>

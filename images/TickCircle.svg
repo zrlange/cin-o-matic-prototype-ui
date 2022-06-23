@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #77e087;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #292e34;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #3ce155;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Tick_Circle" data-name="Tick Circle" class="cls-1">
+    <g id="Ellipse_110" data-name="Ellipse 110" class="cls-2">
+      <circle class="cls-4" cx="45.5" cy="45.5" r="45.5"/>
+      <circle class="cls-5" cx="45.5" cy="45.5" r="44"/>
+    </g>
+    <path id="Checkbox" class="cls-3" d="M6.9,12,0,5.1,1.4,3.7,6.9,9.1,16,0l1.4,1.4Z" transform="translate(36.8 39.5)"/>
+  </g>
+</svg>
